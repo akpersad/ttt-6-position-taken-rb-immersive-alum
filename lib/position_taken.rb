@@ -3,6 +3,6 @@ def position_taken?(board, index)
   if board[index] !~ /[^[:space:]]/
     return false;
   end
-    return true
-
+  
+  return true
 end
